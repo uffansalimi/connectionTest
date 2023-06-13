@@ -3,7 +3,7 @@ resource vm1 'Microsoft.Network/connectionMonitors@2022-07-01' = {
   location: 'ukSouth' // Replace with your desired location
   properties: {
     source: {
-      resourceId: resourceId('cf2bc933-edbd-445d-9d5e-4a51d4a0a236','Alan','Microsoft.Network/publicIPAddresses','vm1-ip') // Replace with your specific resource IDs
+      resourceId: resourceId('') // Replace with your specific resource IDs
       port: 80
     }
     destinations: [
